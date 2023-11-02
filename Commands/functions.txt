@@ -1,0 +1,12 @@
+1. Change directory = "cd abcd", which takes you to the directory named abcd. 
+2. Check state of repository = "git status" which displays a list of the files that have been modified since the last time changes were saved. = check which files are in staging area
+3. Show all the changes in your repository = "git diff"
+4. Compare files with that in staging area = "git diff -r HEAD" , The -r flag means "compare to a particular revision", and HEAD is a shortcut meaning "the most recent commit".
+5. Edit file = "nano filename" 
+    a) Ctrl-K: delete a line.
+    b) Ctrl-U: un-delete a line.
+    c) Ctrl-O: save the file ('O' stands for 'output').
+    d) Ctrl-X: exit the editor.
+6. Add file to staging area = "git add filename"
+7. Save files in staging area = " git commit -m "message""
+8. Ammend the mistaken commit message = "git commit --amend - m "new message""
