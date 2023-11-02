@@ -9,4 +9,8 @@
     d) Ctrl-X: exit the editor.
 6. Add file to staging area = "git add filename"
 7. Save files in staging area = " git commit -m "message""
+    - If you use git commit without -m to commit the changes. The Nano editor will open up. Write a meaningful message and use Ctrl+O and Enter to save, and then Ctrl+X to leave the editor.
 8. Ammend the mistaken commit message = "git commit --amend - m "new message""
+9. View project history log = "git log" 
+    - Git automatically uses a pager to show one screen of output at a time. Press the space bar to go down a page or the 'q' key to quit.
+10. View file's history log = " data/southern.csv" 
